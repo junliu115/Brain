@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Brain\Scripts\Core\MaouCore.cs">
+    <Files>
+      <File FileName="Assets\Brain\Scripts\Biz\Index\View\Index.cs" Line="19" Column="32" />
+      <File FileName="Assets\Brain\Scripts\Core\MaouCore.cs" Line="22" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="Assets\Brain\Scripts\Core\MaouObject.cs" line="142" offsetX="573" offsetY="2397" expression="prefab" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

@@ -1,0 +1,307 @@
+fileFormatVersion: 2
+guid: 6aa1d11147a518c4586cf248544c84b8
+timeCreated: 1461578082
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GraphicItem5_0
+    21300002: GraphicItem5_1
+    21300004: GraphicItem5_2
+    21300006: GraphicItem5_3
+    21300008: GraphicItem5_4
+    21300010: GraphicItem5_5
+    21300012: GraphicItem5_6
+    21300014: GraphicItem5_7
+    21300016: GraphicItem5_8
+    21300018: GraphicItem5_9
+    21300020: GraphicItem5_10
+    21300022: GraphicItem5_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: GraphicItem5_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 597
+        width: 166
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -83, y: 45}
+        - {x: -83, y: -2}
+        - {x: -51, y: -45}
+        - {x: 49, y: -45}
+        - {x: 83, y: -8}
+        - {x: 83, y: 45}
+    - name: GraphicItem5_1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 584
+        width: 115
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57.5, y: 5.5}
+        - {x: 57.5, y: 52.5}
+        - {x: 55.5, y: 57.5}
+        - {x: 2.5, y: 57.5}
+        - {x: -57.5, y: 15.5}
+        - {x: -57.5, y: -47.5}
+        - {x: -56.5, y: -51.5}
+        - {x: -42.5, y: -57.5}
+        - {x: -3.5, y: -57.5}
+        - {x: 0.5, y: -56.5}
+        - {x: 15.5, y: -50.5}
+        - {x: 31.5, y: -30.5}
+    - name: GraphicItem5_2
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 584
+        width: 114
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: 57.5}
+        - {x: -57, y: 42.5}
+        - {x: -57, y: -36.5}
+        - {x: -33, y: -57.5}
+        - {x: 42, y: -57.5}
+        - {x: 57, y: -33.5}
+        - {x: 57, y: 33.5}
+        - {x: 53, y: 57.5}
+    - name: GraphicItem5_3
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 468
+        width: 84
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 58}
+        - {x: -15, y: 58}
+        - {x: -42, y: 24}
+        - {x: -42, y: -49}
+        - {x: -38, y: -58}
+        - {x: 27, y: -58}
+        - {x: 42, y: -45}
+        - {x: 42, y: 10}
+        - {x: 33, y: 57}
+    - name: GraphicItem5_4
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 468
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: 58}
+        - {x: -58, y: 35}
+        - {x: -58, y: -37}
+        - {x: -38, y: -58}
+        - {x: 47, y: -58}
+        - {x: 58, y: -55}
+        - {x: 58, y: 33}
+        - {x: 37, y: 58}
+    - name: GraphicItem5_5
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 468
+        width: 155
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61.5, y: 23}
+        - {x: -77.5, y: 17}
+        - {x: -77.5, y: -10}
+        - {x: -63.5, y: -58}
+        - {x: 68.5, y: -58}
+        - {x: 77.5, y: 6}
+        - {x: 77.5, y: 58}
+        - {x: 46.5, y: 58}
+        - {x: 35.5, y: 55}
+    - name: GraphicItem5_7
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 368
+        width: 166
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -83, y: 42}
+        - {x: -83, y: -7}
+        - {x: -51, y: -42}
+        - {x: 39, y: -42}
+        - {x: 74, y: -25}
+        - {x: 83, y: 9}
+        - {x: 83, y: 42}
+    - name: GraphicItem5_8
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 352
+        width: 122
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: 58}
+        - {x: -61, y: 35}
+        - {x: -61, y: -52}
+        - {x: -45, y: -58}
+        - {x: 61, y: -58}
+        - {x: 61, y: 23}
+        - {x: 43, y: 58}
+    - name: GraphicItem5_9
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 236
+        width: 126
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54, y: 58}
+        - {x: -63, y: 55}
+        - {x: -63, y: -36}
+        - {x: -55, y: -58}
+        - {x: 63, y: -58}
+        - {x: 63, y: 27}
+        - {x: 20, y: 58}
+    - name: GraphicItem5_10
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 236
+        width: 110
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 58}
+        - {x: -7, y: 48}
+        - {x: -51, y: 5}
+        - {x: -55, y: 2}
+        - {x: -55, y: -48}
+        - {x: -52, y: -58}
+        - {x: 55, y: -58}
+        - {x: 55, y: 58}
+    - name: GraphicItem5_6
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 353
+        width: 122
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 3}
+      outline:
+      - - {x: -53, y: 19}
+        - {x: -61, y: -6}
+        - {x: -61, y: -59}
+        - {x: 36, y: -59}
+        - {x: 56, y: -39}
+        - {x: 56, y: 57}
+        - {x: -29, y: 57}
+        - {x: -41, y: 54}
+      - - {x: 17, y: 59}
+        - {x: -20, y: 59}
+        - {x: -19, y: 56}
+        - {x: -11, y: 54}
+        - {x: 4, y: 54}
+        - {x: 11, y: 55}
+        - {x: 15, y: 56}
+        - {x: 17, y: 58}
+    - name: GraphicItem5_11
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 233
+        width: 128
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: 58.5}
+        - {x: -64, y: 48.5}
+        - {x: -64, y: -36.5}
+        - {x: -60, y: -49.5}
+        - {x: -34, y: -57.5}
+        - {x: 55, y: -57.5}
+        - {x: 63, y: -51.5}
+        - {x: 63, y: 19.5}
+        - {x: 50, y: 58.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

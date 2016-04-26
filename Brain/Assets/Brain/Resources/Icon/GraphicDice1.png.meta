@@ -1,0 +1,521 @@
+fileFormatVersion: 2
+guid: 3239431c0442295478df33c8f3f785c5
+timeCreated: 1461514377
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GraphicDice1_10@2x
+    21300002: GraphicDice1_11@2x
+    21300004: GraphicDice1_1@2x
+    21300006: GraphicDice1_2@2x
+    21300008: GraphicDice1_3@2x
+    21300010: GraphicDice1_4@2x
+    21300012: GraphicDice1_5@2x
+    21300014: GraphicDice1_6@2x
+    21300016: GraphicDice1_7@2x
+    21300018: GraphicDice1_8@2x
+    21300020: GraphicDice1_9@2x
+    21300022: GraphicDice2_10@2x
+    21300024: GraphicDice2_11@2x
+    21300026: GraphicDice2_1@2x
+    21300028: GraphicDice2_2@2x
+    21300030: GraphicDice2_3@2x
+    21300032: GraphicDice2_4@2x
+    21300034: GraphicDice2_5@2x
+    21300036: GraphicDice2_6@2x
+    21300038: GraphicDice2_7@2x
+    21300040: GraphicDice2_8@2x
+    21300042: GraphicDice2_9@2x
+    21300044: GraphicDice1_10
+    21300046: GraphicDice1_4
+    21300048: GraphicDice1_5
+    21300050: GraphicDice1_6
+    21300052: GraphicDice1_7
+    21300054: GraphicDice1_11
+    21300056: GraphicDice1_8
+    21300058: GraphicDice2_1
+    21300060: GraphicDice2_2
+    21300062: GraphicDice2_3
+    21300064: GraphicDice1_1
+    21300066: GraphicDice1_9
+    21300068: GraphicDice2_4
+    21300070: GraphicDice2_7
+    21300072: GraphicDice2_8
+    21300074: GraphicDice1_2
+    21300076: GraphicDice2_10
+    21300078: GraphicDice2_5
+    21300080: GraphicDice2_9
+    21300082: GraphicDice1_3
+    21300084: GraphicDice2_11
+    21300086: GraphicDice2_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: GraphicDice1_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 604
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73, y: 75}
+        - {x: -75, y: 73}
+        - {x: -75, y: -70}
+        - {x: -70, y: -75}
+        - {x: 70, y: -75}
+        - {x: 75, y: -71}
+        - {x: 75, y: 73}
+        - {x: 73, y: 75}
+    - name: GraphicDice1_4
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 605
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -75, y: 75}
+        - {x: -75, y: -72}
+        - {x: -73, y: -75}
+        - {x: 72, y: -75}
+        - {x: 75, y: -73}
+        - {x: 75, y: 75}
+    - name: GraphicDice1_5
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 605
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72, y: 75}
+        - {x: -75, y: 72}
+        - {x: -75, y: -72}
+        - {x: -73, y: -75}
+        - {x: 71, y: -75}
+        - {x: 75, y: -72}
+        - {x: 75, y: 71}
+        - {x: 71, y: 75}
+    - name: GraphicDice1_6
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 606
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -71, y: 75}
+        - {x: -75, y: 71}
+        - {x: -75, y: -73}
+        - {x: -72, y: -75}
+        - {x: 73, y: -75}
+        - {x: 75, y: -73}
+        - {x: 75, y: 71}
+        - {x: 71, y: 75}
+    - name: GraphicDice1_7
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 605
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -75, y: 75}
+        - {x: -75, y: -73}
+        - {x: -73, y: -75}
+        - {x: 70, y: -75}
+        - {x: 75, y: -70}
+        - {x: 75, y: 71}
+        - {x: 71, y: 75}
+    - name: GraphicDice1_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 455
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 72, y: 75}
+        - {x: -71, y: 75}
+        - {x: -75, y: 71}
+        - {x: -75, y: -72}
+        - {x: -72, y: -75}
+        - {x: 72, y: -75}
+        - {x: 75, y: -73}
+        - {x: 75, y: 71}
+    - name: GraphicDice1_8
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 454
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 73, y: 75}
+        - {x: -71, y: 75}
+        - {x: -75, y: 71}
+        - {x: -75, y: -71}
+        - {x: -71, y: -75}
+        - {x: 73, y: -75}
+        - {x: 75, y: -72}
+        - {x: 75, y: 73}
+    - name: GraphicDice2_1
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 453
+        width: 150
+        height: 150
+      alignment: 9
+      pivot: {x: 0.49417886, y: 0.5058211}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -74.12683, y: 74.12683}
+        - {x: -74.12683, y: -71.87317}
+        - {x: -69.12683, y: -75.87317}
+        - {x: 70.87317, y: -75.87317}
+        - {x: 75.87317, y: -71.87317}
+        - {x: 75.87317, y: 73.12683}
+        - {x: 74.87317, y: 74.12683}
+    - name: GraphicDice2_2
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 453
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -74, y: 75}
+        - {x: -75, y: 73}
+        - {x: -75, y: -71}
+        - {x: -70, y: -75}
+        - {x: 70, y: -75}
+        - {x: 75, y: -71}
+        - {x: 75, y: 74}
+        - {x: 74, y: 75}
+    - name: GraphicDice2_3
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 453
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -74, y: 75}
+        - {x: -75, y: 74}
+        - {x: -75, y: -71}
+        - {x: -71, y: -75}
+        - {x: 69, y: -75}
+        - {x: 75, y: -69}
+        - {x: 75, y: 72}
+        - {x: 72, y: 75}
+    - name: GraphicDice1_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 301
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 74, y: 75}
+        - {x: -74, y: 75}
+        - {x: -75, y: 74}
+        - {x: -75, y: -70}
+        - {x: -72, y: -75}
+        - {x: 71, y: -75}
+        - {x: 75, y: -70}
+        - {x: 75, y: 74}
+    - name: GraphicDice1_9
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 303
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73, y: 75}
+        - {x: -75, y: 74}
+        - {x: -75, y: -72}
+        - {x: -73, y: -73}
+        - {x: -71, y: -75}
+        - {x: 72, y: -75}
+        - {x: 75, y: -73}
+        - {x: 75, y: 73}
+        - {x: 73, y: 75}
+    - name: GraphicDice2_4
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 303
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -71, y: 75}
+        - {x: -75, y: 72}
+        - {x: -75, y: -70}
+        - {x: -70, y: -75}
+        - {x: 73, y: -75}
+        - {x: 75, y: -73}
+        - {x: 75, y: 75}
+    - name: GraphicDice2_7
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 304
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72, y: 75}
+        - {x: -75, y: 73}
+        - {x: -75, y: -73}
+        - {x: -72, y: -75}
+        - {x: 73, y: -75}
+        - {x: 75, y: -73}
+        - {x: 75, y: 73}
+        - {x: 72, y: 75}
+    - name: GraphicDice2_8
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 302
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73, y: 75}
+        - {x: -75, y: 73}
+        - {x: -75, y: -69}
+        - {x: -71, y: -74}
+        - {x: -68, y: -75}
+        - {x: 71, y: -75}
+        - {x: 75, y: -72}
+        - {x: 75, y: 74}
+        - {x: 74, y: 75}
+    - name: GraphicDice1_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 153
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72, y: 75}
+        - {x: -75, y: 72}
+        - {x: -75, y: -73}
+        - {x: -73, y: -75}
+        - {x: 72, y: -75}
+        - {x: 75, y: -71}
+        - {x: 75, y: 70}
+        - {x: 71, y: 75}
+    - name: GraphicDice2_10
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 152
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 75, y: 70}
+        - {x: 71, y: 75}
+        - {x: -74, y: 75}
+        - {x: -75, y: 74}
+        - {x: -75, y: -72}
+        - {x: -72, y: -75}
+        - {x: 71, y: -75}
+        - {x: 74, y: -71}
+        - {x: 75, y: -70}
+    - name: GraphicDice2_5
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 152
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 72, y: 75}
+        - {x: -73, y: 75}
+        - {x: -75, y: 73}
+        - {x: -75, y: -73}
+        - {x: -72, y: -75}
+        - {x: 72, y: -75}
+        - {x: 75, y: -73}
+        - {x: 75, y: 73}
+    - name: GraphicDice2_9
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 151
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 73, y: 75}
+        - {x: -74, y: 75}
+        - {x: -75, y: 74}
+        - {x: -75, y: -71}
+        - {x: -73, y: -74}
+        - {x: -70, y: -75}
+        - {x: 69, y: -75}
+        - {x: 74, y: -71}
+        - {x: 75, y: -70}
+        - {x: 75, y: 73}
+    - name: GraphicDice1_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 73, y: 75}
+        - {x: -73, y: 75}
+        - {x: -75, y: 73}
+        - {x: -75, y: -70}
+        - {x: -71, y: -75}
+        - {x: 70, y: -75}
+        - {x: 72, y: -74}
+        - {x: 75, y: -70}
+        - {x: 75, y: 73}
+    - name: GraphicDice2_11
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 73, y: 75}
+        - {x: -74, y: 75}
+        - {x: -75, y: 74}
+        - {x: -75, y: -70}
+        - {x: -71, y: -75}
+        - {x: 70, y: -75}
+        - {x: 72, y: -74}
+        - {x: 75, y: -70}
+        - {x: 75, y: 73}
+    - name: GraphicDice2_6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 73, y: 75}
+        - {x: -74, y: 75}
+        - {x: -75, y: 74}
+        - {x: -75, y: -71}
+        - {x: -72, y: -75}
+        - {x: 70, y: -75}
+        - {x: 75, y: -69}
+        - {x: 75, y: 73}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
