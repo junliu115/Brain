@@ -23,6 +23,5 @@ public class Icon : MonoBehaviour
             print("判断后设置的图片为null,"+ spriteName);
         }
         //GetComponent<Image>().SetNativeSize();
-
     }
 }

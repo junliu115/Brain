@@ -8,6 +8,7 @@ public class QuestionUI : MaouView {
 	public Text[] texts;
 	public Image yesImage;
 	public Image noImage;
+    public Image chooseImage;
 	public Text resulttxt;
 	public Text txt;
 	private Icon imageicon;
@@ -46,12 +47,16 @@ public class QuestionUI : MaouView {
 		if(waitCheak){
 			return;
 		}
-		if(num == rightAnswer){
+        Image tmpImage = images[num];
+        chooseImage.gameObject.SetActive(true);
+        chooseImage.transform.position = tmpImage.transform.position;
+        if (num == rightAnswer){
 			score ++;
 			Index.totalScore = score;
 			resulttxt.text = "正确:"+score.ToString();
 			yesImage.gameObject.SetActive (true);
-		}else{
+        }
+        else{
 			noImage.gameObject.SetActive (true);
 			Index.worryScore ++; 
 		}
@@ -72,7 +77,8 @@ public class QuestionUI : MaouView {
 
 	private void reset()
 	{
-		yesImage.gameObject.SetActive (false);
+        chooseImage.gameObject.SetActive(false);
+        yesImage.gameObject.SetActive (false);
 		noImage.gameObject.SetActive (false);
 		waitCheak = false;
 		for (int i=0; i<4; i++) {
@@ -99,7 +105,7 @@ public class QuestionUI : MaouView {
 	private ArrayList arryNumList;
 	public void NextQuestion(){
         reset ();
-		Index.type = 1;
+		Index.type = 4;
         if (Index.type == 1) {
 			txt.text = "选出不同类型的物品?";
 			rightAnswer = Random.Range (0, 4);
@@ -125,30 +131,29 @@ public class QuestionUI : MaouView {
 		} else if (Index.type == 2) {
 			txt.text = "选出方向不同的物品?";
 			rightAnswer = Random.Range (0, 4);
-			rightLei = Random.Range (0, 3);
-			int num = Random.Range (1, 10);
+			rightLei = Random.Range (0, 4);
 			arryNumList = new ArrayList ();
-			arryNumList.Add ("4"); 
-			arryNumList.Add ("7");
-			arryNumList.Add ("8"); 
-			for (int i=0; i<4; i++) {
+			arryNumList.Add ("4");
+            arryNumList.Add ("6");
+            arryNumList.Add ("7");
+			arryNumList.Add ("8");
+            string itemName;
+            int num;
+            do
+            {
+                num = Random.Range(0, 13);
+                itemName = "GraphicItem" + arryNumList[rightLei] + "_" + num;
+            } while (AssetUtil.getSprtie(itemName) == null);
+            for (int i=0; i<4; i++) {
 				Image tmpImage = images [i];
 				imageicon = tmpImage.GetComponent<Icon> ();
-				string str = "GraphicItem" + arryNumList [rightLei] + "_" + num + "@2x";
-				imageicon.setSprite (str);
-				//int num = arry[i];
-				//8,4,7
-				if (rightAnswer == i) {
-					//RectTransform rectTransform = GetComponent<RectTransform>();
-					//rectTransform.localScale = new Vector3(-1,1,1);
+                imageicon.setSprite (itemName);
+                if (rightAnswer == i) {
 					tmpImage.gameObject.transform.localScale = new Vector3 (-1, 1, 1);
-					//tmpImage.rectTransform.rotation = new Quaternion(0, 540f, 0, 0);
-					//renderer.material.mainTextureScale = new Vector2(-1,1);
 				} else {
 					tmpImage.gameObject.transform.localScale = new Vector3 (1, 1, 1);
 					int numAngles = Random.Range (-15, 15);
 					tmpImage.gameObject.transform.eulerAngles = new Vector3 (0, 0, numAngles);
-					//tmpImage.rectTransform.rotation = new Quaternion(0, 0, 0, 0);
 				}
 			}
 		} else if (Index.type == 3) {
