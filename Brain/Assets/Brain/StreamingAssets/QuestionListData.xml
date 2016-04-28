@@ -1,0 +1,37 @@
+<QuestionData>
+	<QuestionList id="1">
+		<Question answer='7'>15,13,11,9,_下一个数是什么?</Question>
+		<Question answer='6'>4,4,5,5,_下一个数是什么?</Question>
+		<Question answer='4'>2,2,3,3,_下一个数是什么?</Question>
+		<Question answer='10'>2,4,6,8,_下一个数是什么?</Question>
+		<Question answer='60'>80,75,70,65,_下一个数是什么?</Question>
+		<Question answer='88'>11,33,55,77,_下一个数是什么?</Question>
+		<Question answer='15'>3,6,9,12,_下一个数是什么?</Question>
+		<Question answer='11'>51,41,31,21,_下一个数是什么?</Question>
+		<Question answer='0'>0,2,0,2,_下一个数是什么?</Question>
+		<Question answer='20'>4,8,12,16,_下一个数是什么?</Question>
+		<Question answer='28'>12,16,20,24,_下一个数是什么?</Question>
+		<Question answer='12'>20,18,16,14,_下一个数是什么?</Question>
+		<Question answer='23'>3,8,13,18,_下一个数是什么?</Question>
+		<Question answer='17'>1,5,9,13,_下一个数是什么?</Question>
+		<Question answer='21'>1,6,11,16,_下一个数是什么?</Question>
+		<Question answer='25'>1,7,13,19,_下一个数是什么?</Question>
+		<Question answer='61'>21,31,41,51,_下一个数是什么?</Question>
+		<Question answer='20'>4,8,12,16,_下一个数是什么?</Question>
+		<Question answer='25'>5,10,15,20,_下一个数是什么?</Question>
+		<Question answer='20'>40,35,30,25,_下一个数是什么?</Question>
+		<Question answer='9'>15,3,12,3,_下一个数是什么?</Question>
+		<Question answer='71'>1,3,9,27,_下一个数是什么?</Question>
+		<Question answer='1'>16,8,4,2,_下一个数是什么?</Question>
+		<Question answer='11'>1,2,4,7,_下一个数是什么?</Question>
+		<Question answer='11'>1,2,4,7,_下一个数是什么?</Question>
+		<Question answer='25'>1,7,13,19,_下一个数是什么?</Question><Question answer='16'>4,7,10,13,_下一个数是什么?</Question><Question answer='75'>35, 45,55,65,_下一个数是什么?</Question><Question answer='32'>1, 2,4,8,16,_下一个数是什么?</Question><Question answer='2'>15,2,12,2,9,_下一个数是什么?</Question><Question answer='50'>10,20,30,40,_下一个数是什么?</Question><Question answer='18'>10,12,14,16,_下一个数是什么?</Question><Question answer='15'>3,6,9,12,_下一个数是什么?</Question><Question answer='8'>0,2,4,6,_下一个数是什么?</Question><Question answer='55'>11,22,33,44,_下一个数是什么?</Question><Question answer='12'>2,3,5,8,_下一个数是什么?</Question><Question answer='27'>7,10,17,20,_下一个数是什么?</Question><Question answer='36'>4,9,16,25,_下一个数是什么?</Question><Question answer='27'>11,15,19,23,_下一个数是什么?</Question><Question answer='48'>3,6,12,24,_下一个数是什么?</Question><Question answer='25'>5,10,15,20,_下一个数是什么?</Question><Question answer='2'>10,8,6,4,_下一个数是什么?</Question><Question answer='1'>9,7,5,3,_下一个数是什么?</Question><Question answer='2'>10,8,6,4,_下一个数是什么?</Question><Question answer='40'>8,16,24,32,_下一个数是什么?</Question><Question answer='11'>15,14,13,12,_下一个数是什么?</Question><Question answer='26'>38,35,32,29,_下一个数是什么?</Question><Question answer='25'>1,4,9,16,_下一个数是什么?</Question><Question answer='16'>4,7,10,13,_下一个数是什么?</Question><Question answer='16'>4,14,24,34,_下一个数是什么?</Question><Question answer='16'>4,14,24,34,_下一个数是什么?</Question><Question answer='11'>51,41,31,21,_下一个数是什么?</Question><Question answer='0'>0,2,0,4,_下一个数是什么?</Question><Question answer='28'>1,7,14,21,_下一个数是什么?</Question><Question answer='2'>2,6,2,6,_下一个数是什么?</Question>
+	</QuestionList>
+	<QuestionList id="2">
+		<Question answer='1'>15_13=28空格需要填什么符号?</Question><Question answer='3'>88_1=88空格需要填什么符号?</Question><Question answer='3'>22_1=22空格需要填什么符号?</Question><Question answer='1'>22_27=49空格需要填什么符号?</Question><Question answer='3'>7_8=56空格需要填什么符号?</Question><Question answer='4'>40_10=4空格需要填什么符号?</Question><Question answer='4'>35_7=5空格需要填什么符号?</Question><Question answer='4'>42_7=6空格需要填什么符号?</Question><Question answer='3'>9_9=81空格需要填什么符号?</Question><Question answer='3'>6_7=42空格需要填什么符号?</Question><Question answer='4'>35_35=1空格需要填什么符号?</Question><Question answer='1'>101_1=102空格需要填什么符号?</Question><Question answer='1'>8_9=17空格需要填什么符号?</Question><Question answer='2'>13_8=5空格需要填什么符号?</Question><Question answer='2'>23_18=5空格需要填什么符号?</Question><Question answer='2'>27_15=12空格需要填什么符号?</Question><Question answer='2'>13_7=6空格需要填什么符号?</Question><Question answer='1'>13_13=26空格需要填什么符号?</Question><Question answer='1'>33_7=40空格需要填什么符号?</Question>
+	</QuestionList>
+	<QuestionList id="3">
+		<Question answer='1'>红</Question><Question answer='2'>红</Question><Question answer='3'>绿</Question><Question answer='4'>蓝</Question><Question answer='3'>白</Question><Question answer='4'>白</Question><Question answer='4'><color='red'>白</font>这个文字是什么颜色?</Question><Question answer='4'><color='red'>白</font>这个文字是什么颜色?</Question><Question answer='3'><color='red'>白</font>这个文字是什么颜色?</Question><Question answer='3'><color='red'>白</font>这个文字是什么颜色?</Question><Question answer='4'><color='red'>白</font>这个文字是什么颜色?</Question><Question answer='1'><color='red'>白</font>这个文字是什么颜色?</Question><Question answer='1'><color='red'>白</font>这个文字是什么颜色?</Question><Question answer='2'><color='red'>白</font>这个文字是什么颜色?</Question><Question answer='2'><color='red'>白</font>这个文字是什么颜色?</Question><Question answer='2'><color='red'>白</font>这个文字是什么颜色?</Question><Question answer='2'><color='red'>白</font>这个文字是什么颜色?</Question><Question answer='1'><color='red'>白</font>这个文字是什么颜色?</Question><Question answer='1'><color='red'>白</font>这个文字是什么颜色?</Question>
+
+	</QuestionList>	
+</QuestionData>

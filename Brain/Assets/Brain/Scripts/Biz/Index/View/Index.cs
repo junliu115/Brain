@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System.Xml;
 
 public class Index : MonoBehaviour
 {
@@ -18,15 +19,36 @@ public class Index : MonoBehaviour
         //首次启动框架
         Maou.Core.MaouCore.Call(new ShowIndexViewCommand());
     }
-	public void initGameData()
+
+    //private string filePath;
+    //private string result = "";
+    public void initGameData()
 	{
 		totalScore = 0;
 		worryScore = 0;
 		step = 0f;
-		LoadAllItem ();
-	}
+        //filePath = System.IO.Path.Combine(Application.streamingAssetsPath,"QuestionListData.xml");
+        //StartCoroutine(LoadStreamingAssets());
 
-	public void LoadAllItem()
+        LoadAllItem ();
+	}
+    
+    //IEnumerator LoadStreamingAssets()
+    //{
+    //    if (filePath.Contains("://"))
+    //    {
+    //        WWW www = new WWW(filePath);
+    //        yield return www;
+    //        result = www.text;
+    //    }
+    //    else
+    //    {
+    //        result = System.IO.File.ReadAllText(filePath);
+    //    }
+    //    print(result);
+    //}
+    
+    public void LoadAllItem()
 	{
 		AssetUtil.LoadAllSprtie ("Icon/GraphicItem1");
         AssetUtil.LoadAllSprtie ("Icon/GraphicItem2");
@@ -47,5 +69,8 @@ public class Index : MonoBehaviour
 		AssetUtil.LoadAllSprtie ("Icon/ButtonAnswer2");
 		AssetUtil.LoadAllSprtie ("Icon/ButtonAnswer3");
 		AssetUtil.LoadAllSprtie ("Icon/ButtonAnswer4");
-	}
+
+        AssetUtil.LoadXmlData("Data/QuestionListData");
+
+    }
 }

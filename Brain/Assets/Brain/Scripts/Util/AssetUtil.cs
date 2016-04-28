@@ -2,11 +2,16 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using Maou.Core;
+using System.Xml;
+using System;
 
 public class AssetUtil
 {
-	//预加载
-	static Dictionary<string,Object> preObjs = new Dictionary<string, Object>();
+	    
+	static Dictionary<string, UnityEngine.Object> preObjs = new Dictionary<string, UnityEngine.Object>();
+    static XmlNodeList xmlNodeList;
+
+    static public Dictionary<string, ArrayList> questionDataList = new Dictionary<string, ArrayList>();
 
     static public GameObject Create(string path)
     {
@@ -18,7 +23,32 @@ public class AssetUtil
         return null;
     }
 
-    static public Object Load(string path)
+    static public void LoadXmlData(string path) {
+        TextAsset textAssets = (TextAsset)Resources.Load(path, typeof(TextAsset));
+        XmlDocument xmlData = new XmlDocument();
+        xmlData.LoadXml(textAssets.text);
+        xmlNodeList = xmlData.SelectSingleNode("QuestionData").ChildNodes;
+        foreach (XmlElement xmlNode in xmlNodeList)
+        {
+            ArrayList arrayList = new ArrayList();
+            foreach (XmlElement xmlNodeChild in xmlNode.ChildNodes)
+            {
+                QuestionData questionData = new QuestionData();
+                questionData.num = int.Parse(xmlNodeChild.GetAttribute("answer"));
+                questionData.str = xmlNodeChild.InnerText;
+                arrayList.Add(questionData);
+            }
+            questionDataList.Add(xmlNode.GetAttribute("id"), arrayList);
+        }
+    }
+
+    static public XmlNodeList GetxmlNodeList() {
+
+        
+        return xmlNodeList;
+    }
+    
+    static public UnityEngine.Object Load(string path)
     {
         return Load<UnityEngine.Object>(path);
     }

@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;//
 using System.Collections.Generic;
+using System.Xml;
 
 public class QuestionUI : MaouView {
 	public Image[] images;
@@ -89,6 +90,7 @@ public class QuestionUI : MaouView {
 			tmpText.text = "";
 			txt.fontSize = 60;
 		}
+        
 	}
 
 
@@ -178,11 +180,11 @@ public class QuestionUI : MaouView {
 				}
 			}
 		} else if (Index.type == 4) {
-			int num;
+            int num;
 			arry = new ArrayList ();
-			QuestionList questionList = new QuestionList ();
-			int questionNum = Random.Range (0, questionList.arry.Count);
-			QuestionData questionData = (QuestionData)questionList.arry [questionNum];
+            ArrayList questionList = AssetUtil.questionDataList["1"];
+            int questionNum = Random.Range (0, questionList.Count);
+			QuestionData questionData = (QuestionData)questionList [questionNum];
 			txt.text = questionData.str;
 			arry.Add (questionData.num);
 			rightAnswer = Random.Range (0, 4);
@@ -203,12 +205,15 @@ public class QuestionUI : MaouView {
 				}
 			}
 		} else if (Index.type == 5) {
-			txt.text = "选择正确的数字符号?";
+            
+           // AssetUtil.xmlData;
+
+            txt.text = "选择正确的数字符号?";
 			int num;
 			arry = new ArrayList ();
-			QuestionList5 questionList5 = new QuestionList5 ();
-			int questionNum = Random.Range (0, questionList5.arry5.Count);
-			QuestionData questionData = (QuestionData)questionList5.arry5 [questionNum];
+            ArrayList questionList = AssetUtil.questionDataList["2"];
+            int questionNum = Random.Range (0, questionList.Count);
+			QuestionData questionData = (QuestionData)questionList[questionNum];
 			txt.text = questionData.str;
 			arry.Add (questionData.num);
 			rightAnswer = Random.Range (0, 4);

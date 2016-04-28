@@ -58,12 +58,6 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -95,6 +89,8 @@
     <Compile Include="Assets\Standard Assets\UnityAds\Scripts\ShowResult.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Brain\Resources\Data\QuestionListData.xml" />
+    <None Include="Assets\Brain\StreamingAssets\QuestionListData.xml" />
     <None Include="Assets\Plugins\Android\unityads\AndroidManifest.xml" />
     <None Include="Assets\Plugins\Android\unityads\build.xml" />
     <None Include="Assets\Plugins\Android\unityads\proguard-project.txt" />
