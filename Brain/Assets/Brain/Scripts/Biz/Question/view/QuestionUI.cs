@@ -107,7 +107,7 @@ public class QuestionUI : MaouView {
 	private ArrayList arryNumList;
 	public void NextQuestion(){
         reset ();
-		//Index.type = 4;
+		Index.type = 4;
         if (Index.type == 1) {
 			txt.text = "选出不同类型的物品?";
 			rightAnswer = Random.Range (0, 4);
@@ -205,7 +205,9 @@ public class QuestionUI : MaouView {
 				}
 			}
 		} else if (Index.type == 5) {
+            
            // AssetUtil.xmlData;
+
             txt.text = "选择正确的数字符号?";
 			int num;
 			arry = new ArrayList ();

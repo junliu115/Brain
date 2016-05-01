@@ -8,7 +8,7 @@ public class QuestionController : MaouController {
 		//GetView ("Biz/Question/QuestionPanel").Show ();
 		QuestionUI questionUI = GetView<QuestionUI>("Biz/Question/QuestionPanel",true);
 		if(questionUI != null){
-			questionUI.Show();  
+			questionUI.Show();
 		}
 	}
 

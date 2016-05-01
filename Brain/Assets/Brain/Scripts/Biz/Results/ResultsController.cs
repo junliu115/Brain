@@ -8,14 +8,12 @@ public class ResultsController : MaouController {
 		ResultsUI resultsUI = GetView<ResultsUI>("Biz/Results/ResultsPanel",true);
 		if(resultsUI != null){
 			resultsUI.Show();
-            resultsUI.showSorce();
-
-        }
+		}
 	}
 
 	public void OnHideResultsCommand(HideResultsCommand command)
 	{
-		ResultsUI resultsUI = GetView<ResultsUI>("Biz/Results/ResultsPanel",true);
+		ResultsUI resultsUI = GetView<ResultsUI>("Biz/Results/ResultsPanel",false);
 		if(resultsUI != null)
 		{
 			resultsUI.Hide();
