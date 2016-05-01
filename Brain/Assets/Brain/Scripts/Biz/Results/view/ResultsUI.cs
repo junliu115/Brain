@@ -7,29 +7,40 @@ public class ResultsUI : MaouView {
 	public Text resultTxt;
 	public Image icon;
 	public Image nextBtn;
-	// Use this for initialization
-	void Start () {
-		resultTxt.text = "问题正确个数:" + Index.totalScore.ToString ();
-		if(Index.type == 1){
-			sorceNum(9);
-			setIcon ("ButtonStage3@2x");
-		}else if(Index.type == 2){
-			sorceNum(6);
-			setIcon ("ButtonStage6@2x");
-		}else if(Index.type == 3){
-			sorceNum(6);
-			setIcon ("ButtonStage5@2x");
-		}else if(Index.type == 4){
-			sorceNum(9);
-			setIcon ("ButtonStage7@2x");	
-		}else if(Index.type == 5){
-			sorceNum(6);
-			setIcon ("ButtonStage1@2x");	
-		}else if(Index.type == 6){
-			sorceNum(7);
-			setIcon ("ButtonStage2@2x");	
-		}
-	}
+
+    public void showSorce() {
+        resultTxt.text = "问题正确个数:" + Index.totalScore.ToString();
+        if (Index.type == 1)
+        {
+            sorceNum(9);
+            setIcon("ButtonStage1");
+        }
+        else if (Index.type == 2)
+        {
+            sorceNum(6);
+            setIcon("ButtonStage2");
+        }
+        else if (Index.type == 3)
+        {
+            sorceNum(6);
+            setIcon("ButtonStage3");
+        }
+        else if (Index.type == 4)
+        {
+            sorceNum(9);
+            setIcon("ButtonStage4");
+        }
+        else if (Index.type == 5)
+        {
+            sorceNum(6);
+            setIcon("ButtonStage5");
+        }
+        else if (Index.type == 6)
+        {
+            sorceNum(7);
+            setIcon("ButtonStage6");
+        }
+    }
 
 	private void sorceNum(int setpSorceNum){
 		int sorceNum;
@@ -44,12 +55,12 @@ public class ResultsUI : MaouView {
 	}
 
 	private void setIcon(string name){
-		//string path = "Icon/Commodity";
 		string path = "Icon/"+name;
 		Sprite sprite = Resources.Load<Sprite>(path);
 		icon.sprite = sprite;
 		//icon.GetComponent<Image>().sprite= sprites[0];
 	}
+
 	public void nextSence()
 	{
 		if (Index.step == 1f) {
@@ -59,9 +70,5 @@ public class ResultsUI : MaouView {
 			Maou.Core.MaouCore.Call(new HideResultsCommand());
 			Maou.Core.MaouCore.Call (new ShowProgressCommand());
 		}
-	}
-	// Update is called once per frame
-	void Update () {
-	
 	}
 }

@@ -24,22 +24,22 @@ public class ProgressUI : MaouView {
 		Index.typearry.Add (Index.type);
 		if(Index.type == 1){
 			infoTxt.text = "选出不同类型的物品?";
-			setIcon ("ButtonStage3@2x");
+			setIcon ("ButtonStage1");
 		}else if(Index.type == 2){
 			infoTxt.text = "选出方向不同的物品?";
-			setIcon ("ButtonStage6@2x");
+			setIcon ("ButtonStage2");
 		}else if(Index.type == 3){
 			infoTxt.text = "选出骰子数最大的?";
-			setIcon ("ButtonStage5@2x");
+			setIcon ("ButtonStage3");
 		}else if(Index.type == 4){
 			infoTxt.text = "选出接下去应该出现的数字?";
-			setIcon ("ButtonStage7@2x");	
+			setIcon ("ButtonStage4");	
 		}else if(Index.type == 5){
 			infoTxt.text = "选择正确的数字符号?";
-			setIcon ("ButtonStage1@2x");	
+			setIcon ("ButtonStage5");	
 		}else if(Index.type == 6){
 			infoTxt.text = "文字是什么颜色?";
-			setIcon ("ButtonStage2@2x");	
+			setIcon ("ButtonStage6");	
 		}
 	}
 

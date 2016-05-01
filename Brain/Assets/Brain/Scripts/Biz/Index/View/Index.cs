@@ -29,7 +29,6 @@ public class Index : MonoBehaviour
 		step = 0f;
         //filePath = System.IO.Path.Combine(Application.streamingAssetsPath,"QuestionListData.xml");
         //StartCoroutine(LoadStreamingAssets());
-
         LoadAllItem ();
 	}
     
